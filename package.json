@@ -1,0 +1,30 @@
+{
+  "name": "redis-update-events",
+  "version": "1.0.0",
+  "description": "Node module that uses Redis PUBSUB to broadcast all events",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RangerMauve/redis-update-events.git"
+  },
+  "keywords": [
+    "redis",
+    "update",
+    "broadcast",
+    "change",
+    "events"
+  ],
+  "author": "rangermauve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/redis-update-events/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/redis-update-events",
+  "dependencies": {
+    "node-redis-pubsub": "^0.5.0",
+    "to-array": "^0.1.4"
+  }
+}
